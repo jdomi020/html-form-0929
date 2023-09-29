@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/1b0c6f7184.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            
+            
+            <!-- Form Start -->
+
+            
+            <div class="form p-5 border">
+            
+            
+            <!-- Header -->
+            
+            <div class="row">
+                <div class="col bg-secondary-subtle border"><h2>Payment Form Example</h2></div>
+            </div>
+            <!-- Header End -->
+            
+            <!-- Body Start -->
+            <div class="row">
+                <div class="row">
+                    
+                    <div class="col bg-danger-subtle m-3 text-danger border-danger ">Some fields are missing</div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="cardNumber" class="form-label">Card #</label>
+                        <input type="password" class="form-control" id="cardNumber" aria-describedby="cardNumber" placeholder="XXXXXXXXXXXXXXX">
+                        
+                    </div>
+                    <div class="col-3">
+                        <label for="cvcNumber" class="form-label">CVC #</label>
+                        <input type="password" class="form-control" id="cvcNumber" aria-describedby="cvcNumber" placeholder="0000">
+                        
+                    </div>
+                    <div class="col-3">
+                        <label for="amount" class="form-label" ><i class="fa-solid fa-dollar-sign"></i>Amount</label>
+                        <input type="text" class="form-control" id="amount" aria-describedby="amount" placeholder="Amount">
+                        
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" aria-describedby="firstName">
+                        
+                    </div>
+                    <div class="col-6">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" aria-describedby="lastName">
+                        
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control" id="city" aria-describedby="city">
+                        
+                    </div>
+                    <div class="col-3">
+                        <label for="state" class="form-label">State</label>
+                        <input type="email" class="form-control" id="state" aria-describedby="state">
+                        
+                    </div>
+                    <div class="col-3">
+                        <label for="postalCode" class="form-label">Postal Code</label>
+                        <input type="text" class="form-control" id="postalCode" aria-describedby="postalCode">
+                        
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="bg-secondary text-center">
+                            <div class="">
+                            <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+                                <label for="message" class="form-label"><i class="fa-brands fa-cc-mastercard"></i></label>
+                            <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+                                <label for="message" class="form-label"><i class="fa-brands fa-cc-visa"></i></label>
+                            <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+                                <label for="message" class="form-label"><i class="fa-brands fa-cc-diners-club"></i></label>
+                            <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+                                <label for="message" class="form-label"><i class="fa-brands fa-cc-amex"></i></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <label for="message" class="form-label">Message</label>
+                            
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                          
+                        <div id="emailHelp" class="form-text">Add any notes here.</div>
+                    </div>  
+                </div>   
+            </div>
+            <!-- Body End -->
+
+            <!-- Footer -->
+            <div class="row">
+                <div class="col bg-secondary-subtle border">
+                    <button type="button" class="btn btn-secondary">Cancel</button>
+                    <button type="button" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+        <!-- Form End -->
+    </body>
+</html>
